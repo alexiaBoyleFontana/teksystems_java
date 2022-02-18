@@ -9,6 +9,7 @@ public class Main {
         System.out.println(convertCelsius(89.6)); //should be 32
        varExercises();
        cafeExercise();
+       operatorsExercise():
 
 
     }
@@ -100,6 +101,16 @@ public class Main {
         double totalSale = subtotal + (subtotal * SALES_TAX);
         System.out.printf("Total Sale: %.2f",totalSale);
 
+    }
+
+    private static void operatorsExercise() {
+
+        // Binary
+        // 1 = 1
+        // 8 = 1000
+        // 33 = 100001
+        // 78 = 1001110
+        // 787 = 1000000000
     }
 
 }
