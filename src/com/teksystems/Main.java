@@ -15,6 +15,9 @@ public class Main {
         System.out.println ("\n\t== Array Exercises ==");
         arrayExercise();
 
+        System.out.println("\n\t==Operator Exercises ==");
+        operatorExercise();
+
 
     }
 
@@ -239,6 +242,96 @@ public class Main {
         for (int i = start; i < end + 1; i++) {
             arr[i] = temp[i];
         }
+
+    }
+
+    private static void operatorExercise () {
+        int x = 2;
+
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = x << 1;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = 9;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = x << 1;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = 17;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = x << 1;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = 88;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = x << 1;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+
+        x = 150;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = x >> 2;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = 225;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = x >> 2;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = 1555;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = x >> 2;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = 32456;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+        x = x >> 2;
+        System.out.println(x);
+        System.out.println(Integer.toBinaryString(x));
+
+        x = 7;
+        int y = 17;
+
+        int z = x & y;
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+        z = x | y;
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+
+        x = 1;
+        System.out.println(x);
+        x++;
+        System.out.println(x);
+
+        x = 1;
+        System.out.println(x);
+        x++;
+        System.out.println(x);
+        ++x;
+        System.out.println(x);
+        x = x + 1;
+        System.out.println(x);
+
+        x = 5;
+        y = 8;
+        z = ++x + y;
+        System.out.println(z);
+        x = 5;
+        y = 8;
+        z = x++ + y;
+        System.out.println(z);
+
+
+
 
     }
 
