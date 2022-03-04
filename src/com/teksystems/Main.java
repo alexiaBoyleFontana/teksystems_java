@@ -17,6 +17,7 @@ public class Main {
 
         System.out.println("\n\t==Operator Exercises ==");
         operatorExercise();
+        loopExercise();
 
 
     }
@@ -333,6 +334,37 @@ public class Main {
 
 
 
+    }
+
+    private static void loopExercise() {
+
+        int x = 0;
+
+        System.out.println("1.");
+        for (x = 1; x <= 10; x++) {
+            System.out.println(x);
+        }
+
+        System.out.println("2.");
+        for (x = 10; x <= 100; x+=10) {
+            System.out.println(x);
+        }
+
+        System.out.println("3.");
+        x = 1;
+        do {
+            System.out.println(x);
+            x++;
+        } while (x < 11);
+
+        System.out.println("4.");
+        for (x = 1; x <= 100; x++) {
+            if ((x % 5 != 0) || (x == 25) || (x == 75)) {
+                continue;
+            }
+            else
+                System.out.println(x);
+        }
     }
 
 }
